@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TutFistPageCollectionViewCell" id="gTV-IL-0wX" customClass="TutFistPageCollectionViewCell" customModule="Dental_Place" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="463"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="463"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTo-da-N8y">
+                        <rect key="frame" x="0.0" y="0.0" width="201" height="463"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen-1" translatesAutoresizingMaskIntoConstraints="NO" id="y4W-gi-50e">
+                                <rect key="frame" x="0.0" y="0.0" width="201" height="463"/>
+                                <color key="backgroundColor" red="0.47924411300000003" green="0.51027649639999995" blue="0.56006264689999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-Kx-QK7">
+                                <rect key="frame" x="101" y="413" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Tln-pi-Xeh"/>
+                                    <constraint firstAttribute="height" constant="50" id="z6E-9w-AKq"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54102021460000005" green="0.56802409890000005" blue="0.61273723840000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="y4W-gi-50e" secondAttribute="trailing" id="5lL-5f-OIu"/>
+                            <constraint firstItem="y4W-gi-50e" firstAttribute="top" secondItem="QTo-da-N8y" secondAttribute="top" id="DNP-7d-uod"/>
+                            <constraint firstAttribute="bottom" secondItem="TaM-Kx-QK7" secondAttribute="bottom" id="MLT-8Z-33K"/>
+                            <constraint firstItem="y4W-gi-50e" firstAttribute="leading" secondItem="QTo-da-N8y" secondAttribute="leading" id="Mif-vQ-Yho"/>
+                            <constraint firstAttribute="bottom" secondItem="y4W-gi-50e" secondAttribute="bottom" id="Qad-b6-UDg"/>
+                            <constraint firstAttribute="trailing" secondItem="TaM-Kx-QK7" secondAttribute="trailing" id="qa5-pM-Dc6"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxK-04-wky">
+                        <rect key="frame" x="8" y="333" width="185" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="zrA-6D-6sk"/>
+                        </constraints>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="CxK-04-wky" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="2WE-ML-LOK"/>
+                <constraint firstAttribute="bottom" secondItem="QTo-da-N8y" secondAttribute="bottom" id="Jxh-Dp-2Sr"/>
+                <constraint firstItem="QTo-da-N8y" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="edM-QM-XZC"/>
+                <constraint firstAttribute="bottom" secondItem="CxK-04-wky" secondAttribute="bottom" constant="30" id="juK-mQ-WSV"/>
+                <constraint firstItem="QTo-da-N8y" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nSO-z3-aAf"/>
+                <constraint firstAttribute="trailing" secondItem="CxK-04-wky" secondAttribute="trailing" constant="8" id="pfV-cP-Pg7"/>
+                <constraint firstAttribute="trailing" secondItem="QTo-da-N8y" secondAttribute="trailing" id="tVD-4A-0np"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="201" height="463"/>
+            <connections>
+                <outlet property="getStartedBtn" destination="CxK-04-wky" id="qo2-fw-q9u"/>
+                <outlet property="image" destination="y4W-gi-50e" id="k7e-gn-nj2"/>
+                <outlet property="skipBtn" destination="TaM-Kx-QK7" id="ifu-fV-RDe"/>
+            </connections>
+            <point key="canvasLocation" x="-4" y="134.48275862068968"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="screen-1" width="150" height="325"/>
+    </resources>
+</document>

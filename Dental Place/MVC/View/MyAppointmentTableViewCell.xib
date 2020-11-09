@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Bold.ttf">
+            <string>FiraSans-Bold</string>
+        </array>
+        <array key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MyAppointmentTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyAppointmentTableViewCell" rowHeight="385" id="KGk-i7-Jjw" customClass="MyAppointmentTableViewCell" customModule="Dental_Place" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="385"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="405" height="385"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tef-zF-S0p" customClass="CardView" customModule="Dental_Place" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="389" height="369"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-Ik-wtd">
+                                <rect key="frame" x="356" y="8" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7iG-yZ-wej"/>
+                                    <constraint firstAttribute="height" constant="25" id="cOa-r3-53Y"/>
+                                </constraints>
+                                <state key="normal" image="ThreeDots"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Checkup" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIc-OV-peW">
+                                <rect key="frame" x="122" y="40" width="145.5" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Cvb-M7-7Jw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.41568627450000001" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="February 20, 2020" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rde-oL-n3i">
+                                <rect key="frame" x="130" y="76" width="129" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="3A0-hP-TRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:30 AM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bz-LL-2CA">
+                                <rect key="frame" x="130" y="99" width="129" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="grq-gD-a0S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="16"/>
+                                <color key="textColor" red="0.13725490200000001" green="0.65098039220000004" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image -1" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-X4-On3">
+                                <rect key="frame" x="164.5" y="129" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="XKF-Le-e3u"/>
+                                    <constraint firstAttribute="width" constant="60" id="jJ7-w9-GWC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Tooth Dental Clinic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4T-sB-3Vq">
+                                <rect key="frame" x="97" y="212" width="195.5" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Oph-Vm-BLM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London, United Kingdom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auC-sj-tUT">
+                                <rect key="frame" x="104.5" y="240" width="180" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="ABG-w1-G7m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="16"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.52549019610000003" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f72-Fl-MuT">
+                                <rect key="frame" x="45" y="297" width="299" height="2"/>
+                                <color key="backgroundColor" red="0.86666666670000003" green="0.89019607840000003" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Njw-dI-j6Z"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mY1-MV-2zR">
+                                <rect key="frame" x="137.5" y="319" width="114" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="SBO-GK-BGh"/>
+                                    <constraint firstAttribute="height" constant="31" id="meX-2X-JQ9"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="See Directions">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.41569" blue="0.62744999999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="16" name="LucidaGrande"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gg5-Ik-wtd" firstAttribute="top" secondItem="tef-zF-S0p" secondAttribute="topMargin" id="1dE-Ai-iBL"/>
+                            <constraint firstItem="auC-sj-tUT" firstAttribute="centerX" secondItem="f72-Fl-MuT" secondAttribute="centerX" id="2bb-De-xeu"/>
+                            <constraint firstItem="f72-Fl-MuT" firstAttribute="leading" secondItem="tef-zF-S0p" secondAttribute="leading" constant="45" id="4hV-yS-m9S"/>
+                            <constraint firstItem="auC-sj-tUT" firstAttribute="top" secondItem="r4T-sB-3Vq" secondAttribute="bottom" id="FRU-ot-eIK"/>
+                            <constraint firstItem="NIc-OV-peW" firstAttribute="centerX" secondItem="Rde-oL-n3i" secondAttribute="centerX" id="HOw-Cs-Lae"/>
+                            <constraint firstItem="mY1-MV-2zR" firstAttribute="top" secondItem="f72-Fl-MuT" secondAttribute="bottom" constant="20" id="JNq-6s-bbS"/>
+                            <constraint firstItem="vrE-X4-On3" firstAttribute="centerX" secondItem="r4T-sB-3Vq" secondAttribute="centerX" id="Jqj-X5-pvg"/>
+                            <constraint firstItem="f72-Fl-MuT" firstAttribute="top" secondItem="auC-sj-tUT" secondAttribute="bottom" constant="35" id="Jwt-Zi-kX3"/>
+                            <constraint firstItem="Rde-oL-n3i" firstAttribute="top" secondItem="NIc-OV-peW" secondAttribute="bottom" constant="8" id="KdL-Ah-awf"/>
+                            <constraint firstItem="mY1-MV-2zR" firstAttribute="centerX" secondItem="tef-zF-S0p" secondAttribute="centerX" id="M3I-vk-zDO"/>
+                            <constraint firstItem="r4T-sB-3Vq" firstAttribute="centerX" secondItem="auC-sj-tUT" secondAttribute="centerX" id="Mb1-T2-rDC"/>
+                            <constraint firstItem="8Bz-LL-2CA" firstAttribute="centerX" secondItem="vrE-X4-On3" secondAttribute="centerX" id="TEU-q4-43U"/>
+                            <constraint firstItem="f72-Fl-MuT" firstAttribute="top" secondItem="auC-sj-tUT" secondAttribute="bottom" constant="35" id="UGj-V0-f0u"/>
+                            <constraint firstItem="NIc-OV-peW" firstAttribute="top" secondItem="tef-zF-S0p" secondAttribute="top" constant="40" id="amp-oc-zmY"/>
+                            <constraint firstItem="Rde-oL-n3i" firstAttribute="leading" secondItem="8Bz-LL-2CA" secondAttribute="leading" id="blU-qs-2W0"/>
+                            <constraint firstItem="vrE-X4-On3" firstAttribute="top" secondItem="8Bz-LL-2CA" secondAttribute="bottom" constant="15" id="fW3-Fe-pHn"/>
+                            <constraint firstItem="NIc-OV-peW" firstAttribute="centerX" secondItem="tef-zF-S0p" secondAttribute="centerX" id="gXh-46-wdJ"/>
+                            <constraint firstItem="r4T-sB-3Vq" firstAttribute="top" secondItem="vrE-X4-On3" secondAttribute="bottom" constant="23" id="gvy-bC-Ben"/>
+                            <constraint firstItem="Rde-oL-n3i" firstAttribute="trailing" secondItem="8Bz-LL-2CA" secondAttribute="trailing" id="moG-01-BDa"/>
+                            <constraint firstItem="Gg5-Ik-wtd" firstAttribute="trailing" secondItem="tef-zF-S0p" secondAttribute="trailingMargin" id="oWN-Gn-C0W"/>
+                            <constraint firstItem="8Bz-LL-2CA" firstAttribute="top" secondItem="Rde-oL-n3i" secondAttribute="bottom" constant="8" symbolic="YES" id="qhk-q8-NTh"/>
+                            <constraint firstAttribute="bottom" secondItem="mY1-MV-2zR" secondAttribute="bottom" constant="19" id="u9U-2r-Hxb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tef-zF-S0p" secondAttribute="trailing" constant="8" id="Vpm-VB-XjN"/>
+                    <constraint firstAttribute="bottom" secondItem="tef-zF-S0p" secondAttribute="bottom" constant="8" id="cKi-1v-5B7"/>
+                    <constraint firstItem="tef-zF-S0p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ocE-uL-ASt"/>
+                    <constraint firstItem="tef-zF-S0p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="tik-Sa-6Ic"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="clinicNameLbl" destination="r4T-sB-3Vq" id="0iZ-I3-2tV"/>
+                <outlet property="dateLbl" destination="Rde-oL-n3i" id="Fku-F5-S8v"/>
+                <outlet property="locLbl" destination="auC-sj-tUT" id="NoF-6G-PJp"/>
+                <outlet property="profileImg" destination="vrE-X4-On3" id="Nur-RT-vZO"/>
+                <outlet property="seeDirectionBtn" destination="mY1-MV-2zR" id="e83-F1-K3J"/>
+                <outlet property="servicenamelbl" destination="NIc-OV-peW" id="e5i-2v-Dbs"/>
+                <outlet property="threeDotsBtn" destination="Gg5-Ik-wtd" id="Cgy-2Y-TK5"/>
+                <outlet property="timeLbl" destination="8Bz-LL-2CA" id="UMT-Rk-XP5"/>
+            </connections>
+            <point key="canvasLocation" x="175.19999999999999" y="242.42878560719643"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Image -1" width="120" height="90"/>
+        <image name="ThreeDots" width="30" height="30"/>
+    </resources>
+</document>

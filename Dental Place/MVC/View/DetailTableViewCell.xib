@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="DetailTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailTableViewCell" rowHeight="66" id="KGk-i7-Jjw" customClass="DetailTableViewCell" customModule="Dental_Place" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVz-gh-yFM">
+                        <rect key="frame" x="35" y="8" width="264" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Checkup " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="780-tc-pKt">
+                                <rect key="frame" x="8" y="15" width="180.5" height="20"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="21"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.52549019610000003" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" €100   " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ULd-ka-rVt">
+                                <rect key="frame" x="196.5" y="15" width="59.5" height="20.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59.5" id="ZYV-G9-y0i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.64705882349999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ULd-ka-rVt" secondAttribute="trailing" constant="8" id="3jI-VF-udm"/>
+                            <constraint firstItem="ULd-ka-rVt" firstAttribute="leading" secondItem="780-tc-pKt" secondAttribute="trailing" constant="8" id="DX6-w2-gTe"/>
+                            <constraint firstItem="780-tc-pKt" firstAttribute="leading" secondItem="LVz-gh-yFM" secondAttribute="leading" constant="8" id="QBx-Sg-oF8"/>
+                            <constraint firstItem="ULd-ka-rVt" firstAttribute="centerY" secondItem="780-tc-pKt" secondAttribute="centerY" id="jBb-Tf-e4Y"/>
+                            <constraint firstAttribute="bottom" secondItem="780-tc-pKt" secondAttribute="bottom" constant="15" id="qUa-WG-qcw"/>
+                            <constraint firstItem="780-tc-pKt" firstAttribute="centerY" secondItem="LVz-gh-yFM" secondAttribute="centerY" id="s2f-Yi-h1i"/>
+                            <constraint firstItem="780-tc-pKt" firstAttribute="top" secondItem="LVz-gh-yFM" secondAttribute="top" constant="15" id="yVp-d4-F4C"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K18-nO-IbU">
+                        <rect key="frame" x="35" y="8" width="264" height="50"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="LVz-gh-yFM" secondAttribute="bottom" constant="8" id="0qU-f3-72k"/>
+                    <constraint firstItem="K18-nO-IbU" firstAttribute="top" secondItem="LVz-gh-yFM" secondAttribute="top" id="8EB-R8-o3h"/>
+                    <constraint firstItem="K18-nO-IbU" firstAttribute="bottom" secondItem="LVz-gh-yFM" secondAttribute="bottom" id="9li-0Q-rao"/>
+                    <constraint firstItem="LVz-gh-yFM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="NwF-t3-OAJ"/>
+                    <constraint firstItem="LVz-gh-yFM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="35" id="ZkR-Aa-y0j"/>
+                    <constraint firstItem="K18-nO-IbU" firstAttribute="trailing" secondItem="LVz-gh-yFM" secondAttribute="trailing" id="cqQ-23-Ny9"/>
+                    <constraint firstItem="K18-nO-IbU" firstAttribute="leading" secondItem="LVz-gh-yFM" secondAttribute="leading" id="hm2-VZ-GIm"/>
+                    <constraint firstAttribute="trailing" secondItem="LVz-gh-yFM" secondAttribute="trailing" constant="35" id="y01-uB-lWT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bckView" destination="LVz-gh-yFM" id="Y6H-x8-Ioo"/>
+                <outlet property="priceLbl" destination="ULd-ka-rVt" id="xef-p8-ahk"/>
+                <outlet property="selectBtn" destination="K18-nO-IbU" id="KX6-s0-nvr"/>
+                <outlet property="title" destination="780-tc-pKt" id="Ghp-bd-z63"/>
+            </connections>
+            <point key="canvasLocation" x="144" y="149.32533733133434"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Bold.ttf">
+            <string>FiraSans-Bold</string>
+        </array>
+        <array key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReciverTableViewCell" rowHeight="209" id="KGk-i7-Jjw" customClass="ReciverTableViewCell" customModule="Dental_Place" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="209"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txK-VZ-syS">
+                        <rect key="frame" x="8" y="8" width="357" height="193"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask Group 6" translatesAutoresizingMaskIntoConstraints="NO" id="TZo-5U-7E9">
+                                <rect key="frame" x="8" y="8" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="oX3-8P-NaN"/>
+                                    <constraint firstAttribute="height" constant="25" id="ykj-bg-Xaf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 8" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-yj-fq3">
+                                <rect key="frame" x="24" y="24" width="10" height="11"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="nSc-Xp-mYg"/>
+                                    <constraint firstAttribute="width" constant="10" id="q6b-BM-luJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Tooth Dental Clinic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nlb-0Y-gXK">
+                                <rect key="frame" x="42" y="8" width="240" height="25"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.41568627450000001" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:40 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZB1-TA-iew">
+                                <rect key="frame" x="290" y="8" width="59" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="7XX-cG-MRi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="15"/>
+                                <color key="textColor" red="0.52941176469999995" green="0.61960784310000006" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBo-iG-5Gg">
+                                <rect key="frame" x="42" y="48" width="307" height="137"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu6-Kl-HJS">
+                                        <rect key="frame" x="8" y="8" width="291" height="121"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Hi Aman, We are happy to inform you that your schedule for appointent has been approved. Your dental appointment will be on February 20, 2020 at 10:30 am. Please confirm.</string>
+                                        <color key="textColor" red="0.30980392159999998" green="0.43921568630000002" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.94901960780000005" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uu6-Kl-HJS" secondAttribute="trailing" constant="8" id="58S-6J-XOI"/>
+                                    <constraint firstItem="uu6-Kl-HJS" firstAttribute="top" secondItem="iBo-iG-5Gg" secondAttribute="top" constant="8" id="EjQ-JS-vQo"/>
+                                    <constraint firstAttribute="bottom" secondItem="uu6-Kl-HJS" secondAttribute="bottom" constant="8" id="NB8-OS-DYh"/>
+                                    <constraint firstItem="uu6-Kl-HJS" firstAttribute="leading" secondItem="iBo-iG-5Gg" secondAttribute="leading" constant="8" id="nWR-pA-AiL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TZo-5U-7E9" firstAttribute="top" secondItem="txK-VZ-syS" secondAttribute="top" constant="8" id="0Ka-Ks-eMQ"/>
+                            <constraint firstItem="nlb-0Y-gXK" firstAttribute="top" secondItem="TZo-5U-7E9" secondAttribute="top" id="61T-gK-FQH"/>
+                            <constraint firstItem="iBo-iG-5Gg" firstAttribute="top" secondItem="nlb-0Y-gXK" secondAttribute="bottom" constant="15" id="Cpw-ZB-4OY"/>
+                            <constraint firstItem="nlb-0Y-gXK" firstAttribute="bottom" secondItem="TZo-5U-7E9" secondAttribute="bottom" id="Eg1-MM-N0D"/>
+                            <constraint firstItem="NQp-yj-fq3" firstAttribute="leading" secondItem="txK-VZ-syS" secondAttribute="leading" constant="24" id="Q1M-zL-gJB"/>
+                            <constraint firstAttribute="trailing" secondItem="ZB1-TA-iew" secondAttribute="trailing" constant="8" id="Re1-Pc-WJy"/>
+                            <constraint firstItem="ZB1-TA-iew" firstAttribute="bottom" secondItem="TZo-5U-7E9" secondAttribute="bottom" id="S1u-gc-Fmr"/>
+                            <constraint firstItem="iBo-iG-5Gg" firstAttribute="leading" secondItem="nlb-0Y-gXK" secondAttribute="leading" id="Yml-zf-HoB"/>
+                            <constraint firstAttribute="bottom" secondItem="iBo-iG-5Gg" secondAttribute="bottom" constant="8" id="ZcC-OQ-AKm"/>
+                            <constraint firstItem="ZB1-TA-iew" firstAttribute="top" secondItem="TZo-5U-7E9" secondAttribute="top" id="cKx-DQ-PSF"/>
+                            <constraint firstItem="NQp-yj-fq3" firstAttribute="top" secondItem="txK-VZ-syS" secondAttribute="top" constant="24" id="hRc-Nj-h53"/>
+                            <constraint firstItem="nlb-0Y-gXK" firstAttribute="leading" secondItem="NQp-yj-fq3" secondAttribute="trailing" constant="8" id="nUn-R4-5Xw"/>
+                            <constraint firstItem="ZB1-TA-iew" firstAttribute="trailing" secondItem="iBo-iG-5Gg" secondAttribute="trailing" id="nd3-Ov-viN"/>
+                            <constraint firstItem="TZo-5U-7E9" firstAttribute="leading" secondItem="txK-VZ-syS" secondAttribute="leading" constant="8" id="qeQ-XY-QST"/>
+                            <constraint firstItem="ZB1-TA-iew" firstAttribute="leading" secondItem="nlb-0Y-gXK" secondAttribute="trailing" constant="8" id="rRB-nI-9w1"/>
+                            <constraint firstAttribute="trailing" secondItem="ZB1-TA-iew" secondAttribute="trailing" constant="8" id="tuT-Uv-VVo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="txK-VZ-syS" secondAttribute="trailing" constant="41" id="QGq-pJ-Xr9"/>
+                    <constraint firstItem="txK-VZ-syS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ejo-0h-7jE"/>
+                    <constraint firstAttribute="bottom" secondItem="txK-VZ-syS" secondAttribute="bottom" constant="8" id="qnp-dE-5Pf"/>
+                    <constraint firstItem="txK-VZ-syS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="wyC-Hk-LRK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backView" destination="txK-VZ-syS" id="jmK-bu-dKH"/>
+                <outlet property="clinicName" destination="nlb-0Y-gXK" id="2MR-kQ-gJF"/>
+                <outlet property="messageView" destination="iBo-iG-5Gg" id="rzG-xj-ucD"/>
+                <outlet property="messagetext" destination="uu6-Kl-HJS" id="ueA-zR-uQW"/>
+                <outlet property="onlineImg" destination="NQp-yj-fq3" id="nS5-tF-z2T"/>
+                <outlet property="profileimg" destination="TZo-5U-7E9" id="HA7-ua-ORB"/>
+                <outlet property="timelbl" destination="ZB1-TA-iew" id="0ZV-gG-NWf"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="157.70089285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Ellipse 8" width="15" height="15"/>
+        <image name="Mask Group 6" width="90" height="90"/>
+    </resources>
+</document>

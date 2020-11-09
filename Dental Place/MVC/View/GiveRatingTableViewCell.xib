@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Bold.ttf">
+            <string>FiraSans-Bold</string>
+        </array>
+        <array key="FiraSans-SemiBold.ttf">
+            <string>FiraSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiveRatingTableViewCell" rowHeight="197" id="KGk-i7-Jjw" customClass="GiveRatingTableViewCell" customModule="Dental_Place" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="196.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEb-im-bHB">
+                        <rect key="frame" x="16" y="8" width="333" height="180.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:30 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItR-Od-wBw">
+                                <rect key="frame" x="254" y="8" width="64" height="19.5"/>
+                                <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="16"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.61176470589999998" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="February 08, 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt9-TC-5YJ">
+                                <rect key="frame" x="15" y="8" width="129.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="YQm-Z9-UbS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xpp-Pd-KcY">
+                                <rect key="frame" x="8" y="48" width="317" height="2"/>
+                                <color key="backgroundColor" red="0.78039215689999997" green="0.83921568629999999" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="6Kz-6Z-k5g"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2" id="uqK-Ra-lVZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Root Canal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqc-gL-I0E">
+                                <rect key="frame" x="114.5" y="64" width="104" height="26"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.41568627450000001" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fM6-HJ-UpQ">
+                                <rect key="frame" x="66.5" y="105" width="200" height="45"/>
+                                <color key="backgroundColor" red="0.13725490200000001" green="0.65098039220000004" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="GpW-Ly-Eyp"/>
+                                    <constraint firstAttribute="width" constant="200" id="n56-QE-jlz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="20"/>
+                                <state key="normal" title="Rate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFr-rj-OOj">
+                                <rect key="frame" x="151.5" y="158.5" width="30" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Je6-Hs-f7P"/>
+                                    <constraint firstAttribute="width" constant="30" id="gzi-pa-mbp"/>
+                                </constraints>
+                                <state key="normal" image="ic_arrow_drop_down_24px"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HxG-lI-qsK">
+                                <rect key="frame" x="0.0" y="146.5" width="333" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="dMc-ys-jEW"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yt9-TC-5YJ" firstAttribute="top" secondItem="JEb-im-bHB" secondAttribute="top" constant="8" id="6sg-pf-NiF"/>
+                            <constraint firstItem="fM6-HJ-UpQ" firstAttribute="top" secondItem="cqc-gL-I0E" secondAttribute="bottom" constant="15" id="9T3-he-A3Q"/>
+                            <constraint firstAttribute="bottom" secondItem="HFr-rj-OOj" secondAttribute="bottom" constant="2" id="ERk-tO-hba"/>
+                            <constraint firstItem="HFr-rj-OOj" firstAttribute="centerX" secondItem="JEb-im-bHB" secondAttribute="centerX" id="F1P-Tr-ICz"/>
+                            <constraint firstItem="xpp-Pd-KcY" firstAttribute="top" secondItem="Yt9-TC-5YJ" secondAttribute="bottom" constant="15" id="GGe-fa-M1v"/>
+                            <constraint firstAttribute="trailing" secondItem="HxG-lI-qsK" secondAttribute="trailing" id="GQf-sQ-uPh"/>
+                            <constraint firstItem="cqc-gL-I0E" firstAttribute="top" secondItem="JEb-im-bHB" secondAttribute="top" constant="64" id="HOD-qX-E6y"/>
+                            <constraint firstItem="HxG-lI-qsK" firstAttribute="leading" secondItem="JEb-im-bHB" secondAttribute="leading" id="PFn-4o-uRv"/>
+                            <constraint firstItem="xpp-Pd-KcY" firstAttribute="leading" secondItem="JEb-im-bHB" secondAttribute="leading" constant="8" id="StF-Lv-ueV"/>
+                            <constraint firstItem="Yt9-TC-5YJ" firstAttribute="leading" secondItem="JEb-im-bHB" secondAttribute="leading" constant="15" id="U73-7h-LwH"/>
+                            <constraint firstAttribute="bottom" secondItem="HxG-lI-qsK" secondAttribute="bottom" id="Wi3-Ay-k1N"/>
+                            <constraint firstItem="ItR-Od-wBw" firstAttribute="top" secondItem="JEb-im-bHB" secondAttribute="top" constant="8" id="ZtH-zr-YPA"/>
+                            <constraint firstItem="cqc-gL-I0E" firstAttribute="centerX" secondItem="JEb-im-bHB" secondAttribute="centerX" id="gV1-0b-SVw"/>
+                            <constraint firstAttribute="trailing" secondItem="xpp-Pd-KcY" secondAttribute="trailing" constant="8" id="pUj-Nd-Msr"/>
+                            <constraint firstItem="fM6-HJ-UpQ" firstAttribute="centerX" secondItem="cqc-gL-I0E" secondAttribute="centerX" id="sp8-79-eDt"/>
+                            <constraint firstAttribute="trailing" secondItem="ItR-Od-wBw" secondAttribute="trailing" constant="15" id="wjR-go-7qf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JEb-im-bHB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="L3k-cm-a3o"/>
+                    <constraint firstAttribute="trailing" secondItem="JEb-im-bHB" secondAttribute="trailing" constant="16" id="XE2-JP-ApT"/>
+                    <constraint firstAttribute="bottom" secondItem="JEb-im-bHB" secondAttribute="bottom" constant="8" id="Xay-f9-dA7"/>
+                    <constraint firstItem="JEb-im-bHB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="roU-bD-wur"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrowBtn" destination="HFr-rj-OOj" id="7cC-Gi-6wa"/>
+                <outlet property="backView" destination="JEb-im-bHB" id="u2D-9v-wOa"/>
+                <outlet property="dateLbl" destination="Yt9-TC-5YJ" id="lup-HK-RRv"/>
+                <outlet property="expandBtn" destination="HxG-lI-qsK" id="MnK-VJ-SQZ"/>
+                <outlet property="rateBtn" destination="fM6-HJ-UpQ" id="KM9-fU-1lp"/>
+                <outlet property="serviceName" destination="cqc-gL-I0E" id="chf-Gg-ZBq"/>
+                <outlet property="timeLbl" destination="ItR-Od-wBw" id="KAg-up-pDy"/>
+            </connections>
+            <point key="canvasLocation" x="154.34782608695653" y="153.01339285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_arrow_drop_down_24px" width="15" height="8"/>
+    </resources>
+</document>
